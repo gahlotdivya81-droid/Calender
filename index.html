@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calendar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 class="title">Simple Calendar</h1>
+
+    <hr>
+
+    <div class="flex">
+
+        <div class="month-year">
+
+            <h2 id="currentMonth"></h2>
+
+            <h2 id="currentYear"></h2>
+
+        </div>
+
+        <div class="prev-next">
+
+            <button id="prevBtn" class="btn btn-primary">Previous Year</button>
+
+            <button id="nextYearBtn" class="btn btn-primary">Next Year</button>
+
+            <button id="prevMonth" class="btn btn-success">Previous Month</button>
+
+            <button id="nextMonth" class="btn btn-success">Next Month</button>
+
+        </div>
+
+    </div>
+
+    <div id="calendar"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
